@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News API Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>News API Search</h1>
+    <label for="apiKey">API Key:</label>
+    <input type="text" id="apiKey" placeholder="Enter API key" required>
+
+    <label for="apiEndpoint">API Endpoint:</label>
+    <input type="text" id="apiEndpoint" placeholder="Enter API endpoint" required>
+
+    <label for="searchTerm">Search Term:</label>
+    <input type="text" id="searchTerm" placeholder="Enter search term" required>
+
+    <label for="searchType">Search Type:</label>
+    <input type="text" id="searchType" placeholder="Enter search type">
+
+    <button id="searchButton">Search</button>
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
