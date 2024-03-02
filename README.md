@@ -6,6 +6,5 @@ This project serves as a template for users to search a news website. It allows 
 ### Prerequisites
 This project requires the user to have API Key and endpoint(URL). Acquiring these is a simple process and directions for this can be found with a simple web search. 
 
-
-
-
+### Getting Started
+This project requires local execution. Therefore, to run this project, one can simply download the raw files and run them locally.
